@@ -1,0 +1,19 @@
+{
+    "name": "roman/wildberries-api",
+    "description": "Work with api wildberries",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Roman\\WildberriesApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "roman",
+            "email": "rsava4@yandex.ru"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
